@@ -807,6 +807,28 @@ footer a:hover {
     display: none;
 }
 
+
+/*-------------ALOJAMIENTO--------------*/
+
+.buscaAlojamiento {
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+.buscaAlojamiento h1 {
+    color: lavenderblush;
+    font-weight: bold;
+}
+
+.inputAlojamiento {
+    width: 100%;
+}
+
+label {
+    font-size: 1.1rem;
+    color: lavenderblush;
+}
+
 @media (min-width: 768px) {
     #imgPrincipal {
         height: 500px;
@@ -817,7 +839,7 @@ footer a:hover {
     #empezar {
         font-size: 1.2rem;
     }
-    /* FORMULARIO */
+    /* FORMULARIO VUELOS */
     .radios {
         display: flex;
         justify-content: flex-start;
@@ -880,6 +902,7 @@ footer a:hover {
         background-position: center center;
         padding: 60px 60px;
     }
+    /*-------------ALOJAMIENTO--------------*/
     /*BANCOS*/
     .bank {
         margin-left: 0px;
@@ -1060,6 +1083,25 @@ footer a:hover {
         background-size: cover;
         background-position: center center;
         padding: 60px 60px;
+    }
+    /*-----ALOJAMIENTO------*/
+    .buscaAlojamiento {
+        height: 250px;
+    }
+    .fechaHospedaje li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    label {
+        font-size: 1.3rem;
+        color: lavenderblush;
+    }
+    .btnBuscarHospe {
+        position: relative;
+        bottom: 73px;
+        left: 700px;
+        width: 370px;
     }
     /* BANCOS */
     .bank img {
